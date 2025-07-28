@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/GestionGimnasios
+    username: postgres
+    password: 030918
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  application:
+    name: login-service
